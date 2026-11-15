@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "notes-cli"
+version = "0.1.0"
+description = "File Notein handwritten-note backups into module folders and convert them to PDF"
+requires-python = ">=3.12"
+dependencies = ["pymupdf"]
+
+[project.scripts]
+notes = "notes_cli.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+notes_cli = ["prompts/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

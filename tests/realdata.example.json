@@ -1,0 +1,44 @@
+{
+  "note_count": 0,
+  "min_total_pages": 0,
+  "sample_folder_path": [
+    "Uni CS",
+    "Year 1",
+    "DBA",
+    "DBA LGT Notes"
+  ],
+  "plan_counts": [
+    [
+      "DBA",
+      "LGT",
+      0
+    ],
+    [
+      "DBA",
+      null,
+      0
+    ]
+  ],
+  "fully_decoded_folders": [
+    [
+      "Uni CS",
+      "Year 2",
+      "FM2"
+    ]
+  ],
+  "fully_decoded_min_strokes": 0,
+  "unbounded_note": {
+    "title": "a note with one unbounded page",
+    "strokes": 0,
+    "width": 0,
+    "height": 0
+  },
+  "render_titles": [
+    "a note with binary strokes",
+    "a note with JSON strokes",
+    "a note with images"
+  ],
+  "pdf_backed_titles": [
+    "a note written on an imported PDF"
+  ]
+}
